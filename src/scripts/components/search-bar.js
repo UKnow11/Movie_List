@@ -36,18 +36,18 @@ class SearchBar extends HTMLElement {
             width: 75%;
             padding: 16px;
             border: 0;
-            border-bottom: 1px solid #032541;
+            border-bottom: 1px solid #000;
             font-weight: bold;
           }
           .search-container > input:focus {
             outline: 0;
-            border-bottom: 2px solid #032541;
+            border-bottom: 2px solid #000;
           }
           .search-container > input:focus::placeholder {
             font-weight: bold;
           }
           .search-container >  input::placeholder {
-            color: #032541;
+            color: #000;
             font-weight: normal;
           }
           .search-container > button {
@@ -55,7 +55,7 @@ class SearchBar extends HTMLElement {
             cursor: pointer;
             margin-left: auto;
             padding: 16px;
-            background-color: #032541;
+            background-color: #000;
             color: white;
             border: 0;
             text-transform: uppercase;
