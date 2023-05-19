@@ -29,7 +29,7 @@ class SearchBar extends HTMLElement {
             border-radius: 5px;
             display: flex;
             position: sticky;
-            top: 10px;
+            top: 100px;
             background-color: white;
           }
           .search-container > input {
