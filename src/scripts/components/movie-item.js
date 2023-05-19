@@ -25,7 +25,7 @@ class MovieItem extends HTMLElement {
             border-radius: 10px;
             overflow: hidden;
           }
-          .fan-art-movie {
+          .cover-movie {
             width: 100%;
             max-height: 300px;
             object-fit: cover;
@@ -47,10 +47,10 @@ class MovieItem extends HTMLElement {
           }
         </style>
         
-        <img class="fan-art-movie" src="${this._movie.strTeamBadge}" alt="Fan Art">
+        <img class="cover-movie" src="${this._movie.strTeamBadge}" alt="Movie Cover">
         <div class="movie-info">
-          <h2>${this._movie.results.title}</h2>
-          <p>${this._movie.results.overview}</p>
+          <h2>${this._movie.title}</h2>
+          <p>${this._movie.overview}</p>
         </div>
       `;
     }
