@@ -47,7 +47,7 @@ class MovieItem extends HTMLElement {
           }
         </style>
         
-        <img class="cover-movie" src="https://image.tmdb.org/t/p/w500${this._movie.poster_path}"alt="Movie Cover">
+        <img class="cover-movie" src="https://image.tmdb.org/t/p/original${this._movie.poster_path}"alt="Movie Cover">
         <div class="movie-info">
           <h2>${this._movie.title}</h2>
           <p>${this._movie.overview}</p>
