@@ -9,10 +9,8 @@ class DataSource {
       .then(responseJson=>{
         if(responseJson.results.length > 0){
           return Promise.resolve(responseJson.results);
-        } else if(responseJson.results.length === 0){
-          return Promise.reject(`The search field cannot be empty`);
-        } else {
-          return Promise.reject(`This movie is not available in our database`);
+        } else if (responseJson){
+          return Promise.reject(`${keyword} is not available in our database`);
         }
       });
     }

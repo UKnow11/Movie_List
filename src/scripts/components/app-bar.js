@@ -28,6 +28,7 @@ class AppBar extends HTMLElement {
             top: 0;
             left: 0;
             background-color: #000
+            z-index: 2;
           }
           h2 {
             padding: 16px;

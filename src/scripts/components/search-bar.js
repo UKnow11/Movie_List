@@ -28,12 +28,14 @@ class SearchBar extends HTMLElement {
             padding: 16px;
             border-radius: 5px;
             display: flex;
-            position: sticky;
             top: 100px;
+            margin-top: 100px;
             background-color: white;
+            z-index: 1;
+            overflow: hidden;
           }
           .search-container > input {
-            width: 75%;
+            width: 100%;
             padding: 16px;
             border: 0;
             border-bottom: 1px solid #000;
